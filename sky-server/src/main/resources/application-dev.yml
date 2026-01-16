@@ -6,3 +6,8 @@ sky:
     database: sky_take_out
     username: root
     password: 147258369
+  alioss:
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    access-key-id: LTAI5tLtSiQQahhmNXfS59Lz
+    access-key-secret: cCIKr8kgb3F3bfgUSXwGXcqDegQ7lc
+    backet-name: wed-skt
