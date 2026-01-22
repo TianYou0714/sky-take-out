@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tLtSiQQahhmNXfS59Lz
     access-key-secret: cCIKr8kgb3F3bfgUSXwGXcqDegQ7lc
     backet-name: wed-skt
+  redis:
+    host: localhost
+    port: 6379
+#    password:
+    database: 0
