@@ -48,7 +48,8 @@ public class shoppingCartServiceImpl implements ShoppingCartService {
             shoppingCartMapper.updateNumberById(cart);
         }else {
             //如果不存在就需要插入一条购物车数据
-            //判断本次添加到购物车的是菜品还是套餐
+            //判断本次添加到购物车的是菜品还是套餐。
+
             Long dishId = shoppingCartDTO.getDishId();
             if (dishId != null){
                 //本次添加的是菜品
